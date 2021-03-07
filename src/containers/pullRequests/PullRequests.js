@@ -17,8 +17,8 @@ class PullRequests extends Component {
           </Fade>
         </div>
         <div className="pull-request-body-div">
-          {pullRequestsData["data"].map((pullRequest) => {
-            return <PullRequestCard pullRequest={pullRequest} />;
+          {pullRequestsData["data"].map((pullRequest, k) => {
+            return <PullRequestCard key={k} pullRequest={pullRequest} />;
           })}
         </div>
       </div>

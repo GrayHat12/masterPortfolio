@@ -2,16 +2,18 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
-  description:
-    "A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+  title: "Rahul's Portfolio",
+  description: `I'm a Developer that spends time coding scripts and building bots. Been coding for around 2 years now and still on the road to learn
+    more. Current coding technologies I know fair enough are Java, C, C#, JavaScript, Python, Go, Kotlin, Deno, Reactjs, Electronjs, Express
+    and a fair share of Dart.
+    `,
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "Rahul Singh Portfolio",
     type: "website",
     url: "http://ashutoshhathidara.com/",
   },
@@ -19,14 +21,15 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
-  logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
-  subTitle:
-    "A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+  title: "Rahul Singh",
+  logo_name: "GrayHat",
+  nickname: "grayhat",
+  subTitle: `I'm a Developer that spends time coding scripts and building bots. Been coding for around 2 years now and still on the road to learn
+    more. Current coding technologies I know fair enough are Java, C, C#, JavaScript, Python, Go, Kotlin, Deno, Reactjs, Electronjs, Express
+    and a fair share of Dart.`,
   resumeLink:
-    "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
+    "https://drive.google.com/file/d/19J70mMh9a0LYUAGrw8XUfR8OKAttJt9t/view?usp=sharing",
+  portfolio_repository: "https://github.com/GrayHat12/masterPortfolio",
 };
 
 const socialMediaLinks = [
@@ -41,43 +44,43 @@ const socialMediaLinks = [
 
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
+    link: "https://github.com/GrayHat12",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
+    link: "https://www.linkedin.com/in/grayhat/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
-  {
+  /*{
     name: "YouTube",
     link: "https://www.youtube.com/channel/UC_amoXmmxSY9KusoDczDTXQ",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  },
+  },*/
   {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto:grayhathacks10@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "Twitter",
-    link: "https://twitter.com/ashutosh_1919",
+    link: "https://twitter.com/gray_rahul",
     fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
   },
-  {
+  /*{
     name: "Facebook",
     link: "https://www.facebook.com/laymanbrother.19/",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
+  },*/
   {
     name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
+    link: "https://www.instagram.com/gray_._hat/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -85,7 +88,7 @@ const socialMediaLinks = [
 
 const skills = {
   data: [
-    {
+    /*{
       title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
@@ -125,13 +128,14 @@ const skills = {
           },
         },
       ],
-    },
+    },*/
     {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
         "⚡ Building resposive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
+        "⚡ Developing mobile applications using Flutter, React Native or Ionic Framework",
+        "⚡ Developing Progressive Web Apps using ReactJS",
         "⚡ Creating application backend in Node, Express & Flask",
       ],
       softwareSkills: [
@@ -193,10 +197,10 @@ const skills = {
           },
         },
         {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
+          skillName: "Typescript",
+          fontAwesomeClassname: "simple-icons:typescript",
           style: {
-            color: "#663399",
+            color: "#3178C6",
           },
         },
         {
@@ -208,7 +212,7 @@ const skills = {
         },
       ],
     },
-    {
+    /*{
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
@@ -314,7 +318,7 @@ const skills = {
           },
         },
       ],
-    },
+    },*/
   ],
 };
 
@@ -327,7 +331,7 @@ const competitiveSites = {
       style: {
         color: "#2EC866",
       },
-      profileLink: "https://www.hackerrank.com/layman_brother",
+      profileLink: "https://www.hackerrank.com/grayhathacks10",
     },
     {
       siteName: "Codechef",
@@ -335,56 +339,56 @@ const competitiveSites = {
       style: {
         color: "#5B4638",
       },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
+      profileLink: "https://www.codechef.com/users/gray_hat",
     },
-    {
+    /*{
       siteName: "Codeforces",
       iconifyClassname: "simple-icons:codeforces",
       style: {
         color: "#1F8ACB",
       },
       profileLink: "http://codeforces.com/profile/layman_brother",
-    },
+    },*/
     {
       siteName: "Hackerearth",
       iconifyClassname: "simple-icons:hackerearth",
       style: {
         color: "#323754",
       },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
+      profileLink: "https://www.hackerearth.com/@grayhathacks10",
     },
-    {
+    /*{
       siteName: "Kaggle",
       iconifyClassname: "simple-icons:kaggle",
       style: {
         color: "#20BEFF",
       },
       profileLink: "https://www.kaggle.com/laymanbrother",
-    },
+    },*/
   ],
 };
 
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
+      title: "Sharda University",
       subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - Present",
+      logo_path: "sharda.gif",
+      alt_name: "Sharda University",
+      duration: "2018 - Present",
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ Apart from this, I have done a specialization on Artificial Intelligence and Machine Learning",
+        /*"⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",*/
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "https://www.sharda.ac.in/",
     },
   ],
 };
 
 const certifications = {
   certifications: [
-    {
+    /*{
       title: "Machine Learning",
       subtitle: "- Andrew Ng",
       logo_path: "stanford_logo.png",
@@ -464,17 +468,26 @@ const certifications = {
         "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
       alt_name: "Coursera",
       color_code: "#2A73CC",
-    },
+    },*/
     {
-      title: "Kuberenetes on GCP",
+      title: "Baseline: Deploy & Develop",
       subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
+      logo_path: "baseline.png",
       certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
+        "https://google.qwiklabs.com/public_profiles/224dc346-13f3-4479-b554-b78d9b68ad3c",
       alt_name: "GCP",
-      color_code: "#4285F499",
+      color_code: "#EDEDED",
     },
     {
+      title: "Google Cloud Essentials",
+      subtitle: "- Qwiklabs",
+      logo_path: "essentials.png",
+      certificate_link:
+        "https://google.qwiklabs.com/public_profiles/224dc346-13f3-4479-b554-b78d9b68ad3c",
+      alt_name: "GCP",
+      color_code: "#927BB8",
+    },
+    /*{
       title: "Cryptography",
       subtitle: "- Saurabh Mukhopadhyay",
       logo_path: "nptel_logo.png",
@@ -491,7 +504,7 @@ const certifications = {
         "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
       alt_name: "GCP",
       color_code: "#4285F499",
-    },
+    },*/
   ],
 };
 
@@ -500,10 +513,10 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "I have worked with many evolving startups as a Full Stack Developer, Software Architect and Software Consultant. I have also worked as a Freelancer for a pretty long time, mostly for web scraping and frontend using ReactJS.",
   header_image_path: "experience.svg",
   sections: [
-    {
+    /*{
       title: "Work",
       experiences: [
         {
@@ -540,39 +553,41 @@ const experience = {
           color: "#fc1f20",
         },
       ],
-    },
+    },*/
     {
       title: "Internships",
       experiences: [
         {
-          title: "Data Science Research Intern",
-          company: "Delhivery Pvt. Ltd.",
-          company_url: "https://www.delhivery.com/",
-          logo_path: "delhivery_logo.png",
-          duration: "May 2019 - Sept 2019",
-          location: "Gurgaon, Haryana",
-          description:
-            "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-          color: "#ee3c26",
+          title: "Full Stack Developer Intern",
+          company: "ChefKart",
+          company_url: "https://thechefkart.com/",
+          logo_path: "thechefkart.png",
+          duration: "June 2020 - October 2020",
+          location: "Work From Home",
+          description: `I worked on JWT authentication server ,secure routes for sending and receiving data, middlewares for verifying authentication and encrypting data in
+            the backend.
+            I created a mobile app using Ionic4 and Capacitor plugins on the ReactJS framework in the frontend using an AdobeXD app design and all the
+            endpoints from the backend code.
+            Also created the responsive organization webpage in ReactJS`,
+          color: "#040707",
         },
         {
-          title: "Data Science Intern",
-          company: "Intel Indexer LLC",
-          company_url:
-            "https://opencorporates.com/companies/us_dc/EXTUID_4170286",
-          logo_path: "intel_logo.jpg",
-          duration: "Nov 2018 - Dec 2018",
+          title: "Web App Developer",
+          company: "Sinplay",
+          company_url: "https://sinplay.in/",
+          logo_path: "sinplay.jpg",
+          duration: "Jan 2021 - Feb 2021",
           location: "Work From Home",
           description:
-            "This is financial Solution Company. I have made Supervised Learning model for the company which can perform time series analysis on Stock price data for 32 companies. I have built LSTM Neural Networks Model and trained the data of 32 companies for last 2 years. This model is also used for forecasting.",
-          color: "#0071C5",
+            "I helped in creating a Progressive Web App for the organization that would serve as a lite version of the Flutter App",
+          color: "#27AAE2",
         },
       ],
     },
     {
       title: "Volunteerships",
       experiences: [
-        {
+        /*{
           title: "Google Explore ML Facilitator",
           company: "Google",
           company_url: "https://about.google/",
@@ -616,7 +631,7 @@ const experience = {
           description:
             "We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
           color: "#0C9D58",
-        },
+        },*/
         {
           title: "Developer Program Member",
           company: "Github",
@@ -625,7 +640,7 @@ const experience = {
           duration: "July 2019 - PRESENT",
           location: "Work From Home",
           description:
-            "I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
+            "I am actively contributing to many opensource projects.",
           color: "#181717",
         },
       ],
@@ -637,7 +652,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects make use of vast variety of latest technology tools. You can check more of my projects on Github.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -645,27 +660,26 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "anim_me.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on social media. You can message me, I will reply within 24 hours. I can help you with Firebase, ReactJS, Express, Cloud and Opensource Development.",
   },
   blogSection: {
-    title: "Blogs",
-    subtitle:
-      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://ashutoshhathidara.wordpress.com",
+    title: "Sample UI - Spotify",
+    subtitle: "A spotify (ui) clone for me to explore the potential of PWAs",
+    link: "http://sinplay-inc.web.app/",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
-    subtitle:
-      "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
+    subtitle: "Greater Noida, Uttar Pradesh - 201306",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
+    //location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
   },
   phoneSection: {
     title: "Phone Number",
-    subtitle: "+91 8320758513",
+    subtitle: "+91 9818559742",
+    callable_link: "tel:+919828559742",
   },
 };
 
