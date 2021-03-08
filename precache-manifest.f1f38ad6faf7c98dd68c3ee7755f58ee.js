@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c0afcb8688b4727530d442aaeadc9fe5",
+    "revision": "77949c6e222ff7e130e6c3279e01243d",
     "url": "https://grayhat12.netlify.app/index.html"
   },
   {
