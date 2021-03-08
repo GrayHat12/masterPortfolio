@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "https://grayhat12.netlify.app/static/css/main.355e535e.chunk.css",
-    "main.js": "https://grayhat12.netlify.app/static/js/main.68d790b7.chunk.js",
-    "main.js.map": "https://grayhat12.netlify.app/static/js/main.68d790b7.chunk.js.map",
+    "main.js": "https://grayhat12.netlify.app/static/js/main.92c4bf8b.chunk.js",
+    "main.js.map": "https://grayhat12.netlify.app/static/js/main.92c4bf8b.chunk.js.map",
     "runtime-main.js": "https://grayhat12.netlify.app/static/js/runtime-main.83496929.js",
     "runtime-main.js.map": "https://grayhat12.netlify.app/static/js/runtime-main.83496929.js.map",
-    "static/js/2.9380044e.chunk.js": "https://grayhat12.netlify.app/static/js/2.9380044e.chunk.js",
-    "static/js/2.9380044e.chunk.js.map": "https://grayhat12.netlify.app/static/js/2.9380044e.chunk.js.map",
+    "static/js/2.838ab7d3.chunk.js": "https://grayhat12.netlify.app/static/js/2.838ab7d3.chunk.js",
+    "static/js/2.838ab7d3.chunk.js.map": "https://grayhat12.netlify.app/static/js/2.838ab7d3.chunk.js.map",
     "index.html": "https://grayhat12.netlify.app/index.html",
-    "precache-manifest.be51bb46b49cc7557b9bb2bd2e21f2a9.js": "https://grayhat12.netlify.app/precache-manifest.be51bb46b49cc7557b9bb2bd2e21f2a9.js",
+    "precache-manifest.3c3ca75e0c7ab69a268e72d3a57603be.js": "https://grayhat12.netlify.app/precache-manifest.3c3ca75e0c7ab69a268e72d3a57603be.js",
     "service-worker.js": "https://grayhat12.netlify.app/service-worker.js",
     "static/css/main.355e535e.chunk.css.map": "https://grayhat12.netlify.app/static/css/main.355e535e.chunk.css.map",
     "static/media/index.css": "https://grayhat12.netlify.app/static/media/Montserrat-Regular.ee653992.ttf",
@@ -56,8 +56,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.83496929.js",
-    "static/js/2.9380044e.chunk.js",
+    "static/js/2.838ab7d3.chunk.js",
     "static/css/main.355e535e.chunk.css",
-    "static/js/main.68d790b7.chunk.js"
+    "static/js/main.92c4bf8b.chunk.js"
   ]
 }
