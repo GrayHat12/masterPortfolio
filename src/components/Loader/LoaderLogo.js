@@ -17,13 +17,13 @@ class LogoLoader extends React.Component {
           className="line1"
           d="M61.7115 219.937L95.1484 95.1485L219.937 61.7115L311.289 153.063L277.852 277.852L153.063 311.289L61.7115 219.937Z"
           stroke="white"
-          stroke-width="4"
+          strokeWidth="4"
         />
         <path
           className="line2"
           d="M322.758 165.532L289.321 290.321L164.532 323.758L73.1805 232.406L106.618 107.618L231.406 74.1806L322.758 165.532Z"
           stroke="white"
-          stroke-width="4"
+          strokeWidth="4"
         />
         <path
           className="R"
