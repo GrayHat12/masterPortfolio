@@ -57,7 +57,7 @@ export default function VoiceCommands(props) {
       callback: (command) => {
         console.log(transcript, command);
         resetTranscript();
-        window.scrollTo(0, document.getElementById("root").scrollHeight);
+        window.scrollTo(0, window.scrollY + window.screen.height);
       },
       bestMatchOnly: true,
       isFuzzyMatch: false,
@@ -182,8 +182,12 @@ export default function VoiceCommands(props) {
   React.useEffect(() => {
     if (canrecord)
       SpeechRecognition.startListening({ continuous: true, language: "en-IN" });
+    let unlisten = history.listen((loc, action) => {
+      window.scrollTo(0, 0);
+    });
     return () => {
       if (canrecord) SpeechRecognition.stopListening();
+      unlisten();
     };
   }, []);
 
