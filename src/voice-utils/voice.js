@@ -4,6 +4,7 @@ import SpeechRecognition, {
 } from "react-speech-recognition";
 import { useHistory } from "react-router-dom";
 import { greeting, settings } from "../portfolio";
+import * as themes from "../theme";
 
 export default function VoiceCommands(props) {
   const [canrecord, setcanrecord] = React.useState(true);
@@ -25,6 +26,39 @@ export default function VoiceCommands(props) {
         anchor.target = "_blank";
         anchor.click();
         anchor.remove();
+      },
+      bestMatchOnly: true,
+      isFuzzyMatch: false,
+    },
+    {
+      command: [
+        /.*random.*themes?.*/i,
+        /.*randomise.*themes?.*/i,
+        /.*change.*colours?.*/i,
+        /.*color.*scheme.*/i,
+      ],
+      callback: (command) => {
+        console.log(transcript, command);
+        resetTranscript();
+        let keys = Object.keys(themes);
+        keys = keys.filter((x) => x !== "chosenTheme" && x !== props.theme);
+        let selected = keys[Math.floor(Math.random() * keys.length)];
+        props.changeTheme(themes[selected]);
+      },
+      bestMatchOnly: true,
+      isFuzzyMatch: false,
+    },
+    {
+      command: [
+        /.*reset.*themes?.*/i,
+        /.*default.*themes?.*/i,
+        /.*reset.*colours?.*/i,
+        /.*default.*scheme.*/i,
+      ],
+      callback: (command) => {
+        console.log(transcript, command);
+        resetTranscript();
+        props.changeTheme(themes.chosenTheme);
       },
       bestMatchOnly: true,
       isFuzzyMatch: false,

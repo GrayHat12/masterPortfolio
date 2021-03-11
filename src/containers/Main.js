@@ -17,7 +17,10 @@ export default class Main extends Component {
     return (
       <div>
         <HashRouter>
-          <VoiceCommands>
+          <VoiceCommands
+            theme={this.props.theme}
+            changeTheme={this.props.changeTheme}
+          >
             <Switch>
               <Route
                 path="/"
