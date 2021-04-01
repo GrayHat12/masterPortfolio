@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "https://grayhat12.netlify.app/static/css/main.355e535e.chunk.css",
-    "main.js": "https://grayhat12.netlify.app/static/js/main.103bc452.chunk.js",
-    "main.js.map": "https://grayhat12.netlify.app/static/js/main.103bc452.chunk.js.map",
+    "main.js": "https://grayhat12.netlify.app/static/js/main.2b066718.chunk.js",
+    "main.js.map": "https://grayhat12.netlify.app/static/js/main.2b066718.chunk.js.map",
     "runtime-main.js": "https://grayhat12.netlify.app/static/js/runtime-main.d425eacb.js",
     "runtime-main.js.map": "https://grayhat12.netlify.app/static/js/runtime-main.d425eacb.js.map",
-    "static/js/2.7f4e2a34.chunk.js": "https://grayhat12.netlify.app/static/js/2.7f4e2a34.chunk.js",
-    "static/js/2.7f4e2a34.chunk.js.map": "https://grayhat12.netlify.app/static/js/2.7f4e2a34.chunk.js.map",
+    "static/js/2.fb58ac88.chunk.js": "https://grayhat12.netlify.app/static/js/2.fb58ac88.chunk.js",
+    "static/js/2.fb58ac88.chunk.js.map": "https://grayhat12.netlify.app/static/js/2.fb58ac88.chunk.js.map",
     "index.html": "https://grayhat12.netlify.app/index.html",
-    "precache-manifest.1e7766a1db9519794b425a21fc41938c.js": "https://grayhat12.netlify.app/precache-manifest.1e7766a1db9519794b425a21fc41938c.js",
+    "precache-manifest.16f42b47519b2cf2bebd77421dc56085.js": "https://grayhat12.netlify.app/precache-manifest.16f42b47519b2cf2bebd77421dc56085.js",
     "service-worker.js": "https://grayhat12.netlify.app/service-worker.js",
     "static/css/main.355e535e.chunk.css.map": "https://grayhat12.netlify.app/static/css/main.355e535e.chunk.css.map",
     "static/media/index.css": "https://grayhat12.netlify.app/static/media/Montserrat-Regular.ee653992.ttf",
@@ -46,6 +46,7 @@
     "static/media/programmer.svg": "https://grayhat12.netlify.app/static/media/programmer.c1a95f73.svg",
     "static/media/projects_image.svg": "https://grayhat12.netlify.app/static/media/projects_image.f7964c6b.svg",
     "static/media/pwa.png": "https://grayhat12.netlify.app/static/media/pwa.bd5f4148.png",
+    "static/media/referplease.svg": "https://grayhat12.netlify.app/static/media/referplease.f60ecc4d.svg",
     "static/media/sharda.gif": "https://grayhat12.netlify.app/static/media/sharda.ea729713.gif",
     "static/media/sinplay.jpg": "https://grayhat12.netlify.app/static/media/sinplay.904d5001.jpg",
     "static/media/stanford_logo.png": "https://grayhat12.netlify.app/static/media/stanford_logo.da0e7c80.png",
@@ -56,8 +57,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d425eacb.js",
-    "static/js/2.7f4e2a34.chunk.js",
+    "static/js/2.fb58ac88.chunk.js",
     "static/css/main.355e535e.chunk.css",
-    "static/js/main.103bc452.chunk.js"
+    "static/js/main.2b066718.chunk.js"
   ]
 }
