@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "https://grayhat12.netlify.app/static/css/main.355e535e.chunk.css",
-    "main.js": "https://grayhat12.netlify.app/static/js/main.e4534963.chunk.js",
-    "main.js.map": "https://grayhat12.netlify.app/static/js/main.e4534963.chunk.js.map",
+    "main.css": "https://grayhat12.netlify.app/static/css/main.d35b5279.chunk.css",
+    "main.js": "https://grayhat12.netlify.app/static/js/main.a4e5854f.chunk.js",
+    "main.js.map": "https://grayhat12.netlify.app/static/js/main.a4e5854f.chunk.js.map",
     "runtime-main.js": "https://grayhat12.netlify.app/static/js/runtime-main.d425eacb.js",
     "runtime-main.js.map": "https://grayhat12.netlify.app/static/js/runtime-main.d425eacb.js.map",
-    "static/js/2.303149a3.chunk.js": "https://grayhat12.netlify.app/static/js/2.303149a3.chunk.js",
-    "static/js/2.303149a3.chunk.js.map": "https://grayhat12.netlify.app/static/js/2.303149a3.chunk.js.map",
+    "static/js/2.77555cff.chunk.js": "https://grayhat12.netlify.app/static/js/2.77555cff.chunk.js",
+    "static/js/2.77555cff.chunk.js.map": "https://grayhat12.netlify.app/static/js/2.77555cff.chunk.js.map",
     "index.html": "https://grayhat12.netlify.app/index.html",
-    "precache-manifest.32f6417ef594d669522196a990f42433.js": "https://grayhat12.netlify.app/precache-manifest.32f6417ef594d669522196a990f42433.js",
+    "precache-manifest.2094bb7fdee353d76a2b6f5b5884ea7d.js": "https://grayhat12.netlify.app/precache-manifest.2094bb7fdee353d76a2b6f5b5884ea7d.js",
     "service-worker.js": "https://grayhat12.netlify.app/service-worker.js",
-    "static/css/main.355e535e.chunk.css.map": "https://grayhat12.netlify.app/static/css/main.355e535e.chunk.css.map",
+    "static/css/main.d35b5279.chunk.css.map": "https://grayhat12.netlify.app/static/css/main.d35b5279.chunk.css.map",
     "static/media/index.css": "https://grayhat12.netlify.app/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/address_image.svg": "https://grayhat12.netlify.app/static/media/address_image.3b021f8f.svg",
     "static/media/anim_me.png": "https://grayhat12.netlify.app/static/media/anim_me.de2c76ec.png",
@@ -57,8 +57,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d425eacb.js",
-    "static/js/2.303149a3.chunk.js",
-    "static/css/main.355e535e.chunk.css",
-    "static/js/main.e4534963.chunk.js"
+    "static/js/2.77555cff.chunk.js",
+    "static/css/main.d35b5279.chunk.css",
+    "static/js/main.a4e5854f.chunk.js"
   ]
 }

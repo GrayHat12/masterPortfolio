@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://grayhat12.netlify.app/precache-manifest.32f6417ef594d669522196a990f42433.js"
+  "https://grayhat12.netlify.app/precache-manifest.2094bb7fdee353d76a2b6f5b5884ea7d.js"
 );
 
 self.addEventListener('message', (event) => {
