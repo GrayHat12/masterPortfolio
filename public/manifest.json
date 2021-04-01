@@ -1,5 +1,8 @@
 {
   "name": "GrayHat",
+  "Scope": "/",
+  "background_color": "#E6FAF5",
+  "display": "standalone",
   "icons": [
     {
       "src": "/android-icon-36x36.png",
@@ -37,5 +40,8 @@
       "type": "image/png",
       "density": "4.0"
     }
-  ]
+  ],
+  "short_name": "GrayHat",
+  "start_url": "/",
+  "theme_color": "#E6FAF5"
 }

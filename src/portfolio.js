@@ -582,6 +582,16 @@ const experience = {
             "I helped in creating a Progressive Web App for the organization that would serve as a lite version of the Flutter App",
           color: "#27AAE2",
         },
+        {
+          title: "Frontend Developer Intern",
+          company: "ReferPlease",
+          company_url: "http://referplease.com/",
+          logo_path: "referplease.svg",
+          duration: "Mar 2021 - Present",
+          location: "Work From Home",
+          description: `I am working on the ReactJS Web Application and the Chrome Extension`,
+          color: "#FEED00",
+        },
       ],
     },
     {

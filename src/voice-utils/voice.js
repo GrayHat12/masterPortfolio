@@ -91,7 +91,7 @@ export default function VoiceCommands(props) {
       callback: (command) => {
         console.log(transcript, command);
         resetTranscript();
-        window.scrollTo(0, window.scrollY + window.screen.height);
+        window.scrollTo(0, window.scrollY + window.screen.height - 100);
       },
       bestMatchOnly: true,
       isFuzzyMatch: false,
