@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9ee3b56d86feefbb6ac5c15d58469894",
+    "revision": "9ad516605d31bd45fb28414b32f8bc07",
     "url": "https://grayhat12.netlify.app/index.html"
   },
   {
-    "revision": "d948ed65c9b96f16f6c9",
-    "url": "https://grayhat12.netlify.app/static/css/main.d7bc2725.chunk.css"
+    "revision": "6fd8a504e849b6ddc65f",
+    "url": "https://grayhat12.netlify.app/static/css/main.fd82ec7e.chunk.css"
   },
   {
-    "revision": "102be3ba0096bcded1e0",
-    "url": "https://grayhat12.netlify.app/static/js/2.6dc58238.chunk.js"
+    "revision": "20e00a0bccf23b2927ad",
+    "url": "https://grayhat12.netlify.app/static/js/2.e26fb0b0.chunk.js"
   },
   {
-    "revision": "d948ed65c9b96f16f6c9",
-    "url": "https://grayhat12.netlify.app/static/js/main.8690e199.chunk.js"
+    "revision": "6fd8a504e849b6ddc65f",
+    "url": "https://grayhat12.netlify.app/static/js/main.42c1e4cd.chunk.js"
   },
   {
     "revision": "6771fe154d51d6085acc",
