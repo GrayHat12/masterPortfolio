@@ -53,7 +53,7 @@
       "url": "https://github.com/Kaiserb11/stock-prediction/pull/1",
       "state": "MERGED",
       "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/47850005?u=e5d2f3961e962c1b22ad8c72f8a65a6dacd04b0b&v=4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47850005?u=4804b3dafe79ab66e5bb59e0b54a878f6e873e20&v=4",
         "url": "https://github.com/Kaiserb11",
         "login": "Kaiserb11"
       },
@@ -66,7 +66,7 @@
         "name": "stock-prediction",
         "url": "https://github.com/Kaiserb11/stock-prediction",
         "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/47850005?u=e5d2f3961e962c1b22ad8c72f8a65a6dacd04b0b&v=4",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/47850005?u=4804b3dafe79ab66e5bb59e0b54a878f6e873e20&v=4",
           "login": "Kaiserb11",
           "url": "https://github.com/Kaiserb11"
         }
@@ -96,10 +96,10 @@
     {
       "id": "MDExOlB1bGxSZXF1ZXN0MzUzMjU0Nzc4",
       "title": "added firefox binary path to config",
-      "url": "https://github.com/sundowndev/PhoneInfoga/pull/168",
+      "url": "https://github.com/sundowndev/phoneinfoga/pull/168",
       "state": "MERGED",
       "mergedBy": {
-        "avatarUrl": "https://avatars.githubusercontent.com/u/16480203?u=81b3a1c5ed8911cff11b489bd17160043fae7091&v=4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16480203?u=20c4058c8bb15423930eecc940c38c715376e282&v=4",
         "url": "https://github.com/sundowndev",
         "login": "sundowndev"
       },
@@ -109,10 +109,10 @@
       "additions": 22,
       "deletions": 11,
       "baseRepository": {
-        "name": "PhoneInfoga",
-        "url": "https://github.com/sundowndev/PhoneInfoga",
+        "name": "phoneinfoga",
+        "url": "https://github.com/sundowndev/phoneinfoga",
         "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/16480203?u=81b3a1c5ed8911cff11b489bd17160043fae7091&v=4",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/16480203?u=20c4058c8bb15423930eecc940c38c715376e282&v=4",
           "login": "sundowndev",
           "url": "https://github.com/sundowndev"
         }
@@ -121,7 +121,7 @@
     {
       "id": "MDExOlB1bGxSZXF1ZXN0MzUzMjU0MDMz",
       "title": "firefox binary path added",
-      "url": "https://github.com/sundowndev/PhoneInfoga/pull/167",
+      "url": "https://github.com/sundowndev/phoneinfoga/pull/167",
       "state": "CLOSED",
       "mergedBy": null,
       "createdAt": "2019-12-15T08:57:22Z",
@@ -130,10 +130,10 @@
       "additions": 5,
       "deletions": 2,
       "baseRepository": {
-        "name": "PhoneInfoga",
-        "url": "https://github.com/sundowndev/PhoneInfoga",
+        "name": "phoneinfoga",
+        "url": "https://github.com/sundowndev/phoneinfoga",
         "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/16480203?u=81b3a1c5ed8911cff11b489bd17160043fae7091&v=4",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/16480203?u=20c4058c8bb15423930eecc940c38c715376e282&v=4",
           "login": "sundowndev",
           "url": "https://github.com/sundowndev"
         }
@@ -142,7 +142,7 @@
     {
       "id": "MDExOlB1bGxSZXF1ZXN0MzUzMjUyNjY1",
       "title": "Update config.example.py",
-      "url": "https://github.com/sundowndev/PhoneInfoga/pull/166",
+      "url": "https://github.com/sundowndev/phoneinfoga/pull/166",
       "state": "CLOSED",
       "mergedBy": null,
       "createdAt": "2019-12-15T08:36:20Z",
@@ -151,10 +151,10 @@
       "additions": 2,
       "deletions": 1,
       "baseRepository": {
-        "name": "PhoneInfoga",
-        "url": "https://github.com/sundowndev/PhoneInfoga",
+        "name": "phoneinfoga",
+        "url": "https://github.com/sundowndev/phoneinfoga",
         "owner": {
-          "avatarUrl": "https://avatars.githubusercontent.com/u/16480203?u=81b3a1c5ed8911cff11b489bd17160043fae7091&v=4",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/16480203?u=20c4058c8bb15423930eecc940c38c715376e282&v=4",
           "login": "sundowndev",
           "url": "https://github.com/sundowndev"
         }
