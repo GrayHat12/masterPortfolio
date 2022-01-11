@@ -62,7 +62,7 @@ const socialMediaLinks = [
   },*/
   {
     name: "Gmail",
-    link: "mailto:grayhathacks10@gmail.com",
+    link: "mailto:rahul.works.sde@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
@@ -134,9 +134,9 @@ const skills = {
       fileName: "FullStackImg",
       skills: [
         "⚡ Building resposive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native or Ionic Framework",
         "⚡ Developing Progressive Web Apps using ReactJS",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Creating application backend in Node, Express & FastAPI",
+        "⚡ Deploying application using Amazon Web Services",
       ],
       softwareSkills: [
         {
@@ -144,6 +144,20 @@ const skills = {
           fontAwesomeClassname: "simple-icons:html5",
           style: {
             color: "#E34F26",
+          },
+        },
+        {
+          skillName: "FastAPI",
+          fontAwesomeClassname: "simple-icons:fastapi",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "AWS",
+          fontAwesomeClassname: "simple-icons:amazonaws",
+          style: {
+            color: "#F68536",
           },
         },
         {
@@ -699,7 +713,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "anim_me.png",
     description:
-      "I am available on social media. You can message me, I will reply within 24 hours. I can help you with Firebase, ReactJS, Express, Cloud and Opensource Development.",
+      "Feel free to drop a mail. I can help with Firebase, ReactJS, Express, Cloud and Opensource Development.",
   },
   blogSection: {
     title: "Sample UI - Spotify",
@@ -713,10 +727,10 @@ const contactPageData = {
     avatar_image_path: "address_image.svg",
     //location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
   },
-  phoneSection: {
-    title: "Phone Number",
-    subtitle: "+91 9818559742",
-    callable_link: "tel:+919828559742",
+  emailSection: {
+    title: "Email Address",
+    subtitle: "rahul.works.sde@gmail.com",
+    callable_link: "mailto:rahul.works.sde@gmail.com",
   },
 };
 

@@ -119,4 +119,17 @@ export const orangeTheme = {
   headerColor: "#FF6B3577",
 };
 
-export const chosenTheme = greenTheme;
+const allThemes = [
+  blueTheme,
+  brownTheme,
+  purpleTheme,
+  yelGreenTheme,
+  redTheme,
+  blackTheme,
+  pinkTheme,
+  violetTheme,
+  greenTheme,
+  orangeTheme,
+];
+
+export const chosenTheme = allThemes[Math.floor(Math.random() * allThemes.length)]
