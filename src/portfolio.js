@@ -564,11 +564,8 @@ const experience = {
           logo_path: "thechefkart.png",
           duration: "June 2020 - October 2020",
           location: "Work From Home",
-          description: `I worked on JWT authentication server ,secure routes for sending and receiving data, middlewares for verifying authentication and encrypting data in
-            the backend.
-            I created a mobile app using Ionic4 and Capacitor plugins on the ReactJS framework in the frontend using an AdobeXD app design and all the
-            endpoints from the backend code.
-            Also created the responsive organization webpage in ReactJS`,
+          description: `I built the backend for the application which had numerous features like scheduling, planning and notifications for the chefs and the customer.
+          Built a web app on ReactJS and used Ionic Framework to build a Cross Platform Mobile Application for the organization which had notifications, location tracking and UPI payment features.`,
           color: "#040707",
         },
         {
@@ -589,8 +586,31 @@ const experience = {
           logo_path: "referplease.svg",
           duration: "Mar 2021 - Present",
           location: "Work From Home",
-          description: `I am working on the ReactJS Web Application and the Chrome Extension`,
+          description: `I built a neural network that worked as a moderator for the platform along with a web scraper that regularly scraped referrals from various sources, categorized them and added to the platforms database.
+          My other tasks included creating a notification service for the application and a Progressive Web App for the frontend.`,
           color: "#FEED00",
+        },
+        {
+          title: "Software Developer Intern",
+          company: "Friday AI",
+          company_url: "https://www.fridayy.ai/",
+          logo_path: "fridayai.png",
+          duration: "August 2021 - Nov 2021",
+          location: "Work From Home",
+          description: `I was working on building a platform for banks, merchant and consumers to hyper-personalize the offers and campaigns using AI and blockchain.
+          My responsibility was to create and manage data pipelines to process and create analytics on top of them.
+          My other tasks include building a web based application along with a Rule Engine.`,
+          color: "#2128BD",
+        },
+        {
+          title: "Software Developer Intern",
+          company: "Karza Technologies",
+          company_url: "https://www.karza.in/",
+          logo_path: "karza.png",
+          duration: "Nov 2021 - Present",
+          location: "Work From Home",
+          description: `Working on a new product.`,
+          color: "#2E55D2",
         },
       ],
     },
